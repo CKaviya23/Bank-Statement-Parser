@@ -1,0 +1,394 @@
+{
+  "fields": {
+    "Account Info": {
+      "Bank name": "Standard Chartered",
+      "Account holder name": "MR SEENIVASAN",
+      "Account number": "XXXX-XXXX-XXXX-0422",
+      "Statement month": "July 2019",
+      "Account type": "SMART BANKING SAVINGS ACCOUNT"
+    },
+    "Summary Values": {
+      "Opening balance": 114453.65,
+      "Closing balance": 116149.46,
+      "Total credits": 70986.83,
+      "Total debits": 69291.02,
+      "Average daily balance": null,
+      "Overdraft count": null,
+      "NSF count": null
+    },
+    "Transactions": [
+      {
+        "date": "2019-06-17",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 04:54:54/916704002072 00000000150000/INR 4585460013957031/361818",
+        "amount": -1500.0,
+        "balance": 112953.65,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-18",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 10:34:49/916910098754 00000000150000/INR 4585460013957031/090814",
+        "amount": -1500.0,
+        "balance": 111453.65,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-18",
+        "description": "PURCHASE ANANDA VILAS HOTEL VIRUDHUNAGAR IN 13:44:16/369548 00000000096600/INR 4585460013957031/916908040420",
+        "amount": -966.0,
+        "balance": 110487.65,
+        "category": "Card Purchase"
+      },
+      {
+        "date": "2019-06-19",
+        "description": "CRADJ/UPI/AXB/916616736180/2019-06-",
+        "amount": 1035.49,
+        "balance": 111523.14,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-19",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 12:10:47/917012098764 00000000200000/INR 4585460013957031/961248",
+        "amount": -2000.0,
+        "balance": 109523.14,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-19",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT CASHNT 15:38:29/917010593592 00000000150000/INR 4585460013957031/192131",
+        "amount": -1500.0,
+        "balance": 108023.14,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-21",
+        "description": "UPI/917209458811/ PAYTM/PAYTM@ICICI/ICIC0000555/ 0103SL00IPAY/OID20190621050469855386@ONE9 7COMMUNIC 917209458811/",
+        "amount": -10.17,
+        "balance": 108012.97,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-21",
+        "description": "UPI/917221648564/ LE TRAVENUES TECHNOLOGY PRIVATE LTD/IXIGO@AXISBANK 1000129101465/LE TRAVENUES TECHNOLOGY PRIVATE LIMI 917221648564/",
+        "amount": -1235.49,
+        "balance": 106777.48,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-24",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 22:31:27/917322019314 00000000100000/INR 4585460013957031/293386",
+        "amount": -1000.0,
+        "balance": 105777.48,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-24",
+        "description": "UPI/917412529088/ 00000030214265860/CRRAJAGURU@OKSBI/ RAJAGURU R/SBIN0000859/SEASON TICKET/ 917412529088/",
+        "amount": 330.0,
+        "balance": 106107.48,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-24",
+        "description": "UPI/917437699869/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8569807937@ONE97COMMU NICATIONSLI 917437699869/",
+        "amount": -300.0,
+        "balance": 105807.48,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-24",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 20:10:24/917420003617 00000000150000/INR 4585460013957031/288640",
+        "amount": -1500.0,
+        "balance": 104307.48,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-25",
+        "description": "UPI/917615458104/ AMAZONPAY/AMAZONPAY@APL/UTIB0000000/ 1000129101465/AMAZONPAY PURCHASE/ 917615458104/",
+        "amount": -449.0,
+        "balance": 103858.48,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-25",
+        "description": "UPI/917615251879/ BILLDESKTEZ/BILLDESK.TNEB@ICICI/ICIC000055 5/ 0103SL00IPAY/UPI/ 917615251879/",
+        "amount": -500.0,
+        "balance": 103358.48,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-25",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 22:10:19/917622003978 00000000100000/INR 4585460013957031/362762",
+        "amount": -1000.0,
+        "balance": 102358.48,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-27",
+        "description": "NON SCB ATM USAGE CHARGES MAY 19",
+        "amount": -120.0,
+        "balance": 102238.48,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-27",
+        "description": "CGST @ 9.00%",
+        "amount": -10.8,
+        "balance": 102227.68,
+        "category": "Fees/Charges"
+      },
+      {
+        "date": "2019-06-27",
+        "description": "SGST @ 9.00%",
+        "amount": -10.8,
+        "balance": 102216.88,
+        "category": "Fees/Charges"
+      },
+      {
+        "date": "2019-06-28",
+        "description": "UPI/917913954049/ AIRTEL.IN/AIRTELIN@HDFCBANK/HDFC0000053/ 50200015779672/BHARTI AIRTEL LIMITED TN PREPAID 15 917913954049/",
+        "amount": -399.0,
+        "balance": 101817.88,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-06-28",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT CASHNT 20:50:44/9944 00000000180000/INR 4585460013957031/019212",
+        "amount": -1800.0,
+        "balance": 100017.88,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-06-29",
+        "description": "PURCHASE GR THANGAMALIGAI CHENNAI IN 10:13:08/726630 00000001400000/INR 4585460013957031/918004983079",
+        "amount": -14000.0,
+        "balance": 86017.88,
+        "category": "Card Purchase"
+      },
+      {
+        "date": "2019-06-29",
+        "description": "CREDIT OF INTEREST",
+        "amount": 797.0,
+        "balance": 86814.88,
+        "category": "Interest"
+      },
+      {
+        "date": "2019-07-01",
+        "description": "UPI/918145237764/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8628127265@ONE97COMMU NICATIONSLI 918145237764/",
+        "amount": -100.0,
+        "balance": 86714.88,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-01",
+        "description": "UPI/918213744268/ AMAZON/AMAZON@APL/UTIB0000001/ 1000129101465/REQUEST FROM AMAZON PAY/ 918213744268/",
+        "amount": -700.0,
+        "balance": 86014.88,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-01",
+        "description": "UPI/918213551289/ 917020028084740/GOOG-PAYMENT@OKAXIS/ GOOGLEPAY/UTIB0000553/UPI/ 918213551289/",
+        "amount": 14.0,
+        "balance": 86028.88,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-01",
+        "description": "PURCHASE LAKSHMI KANTHAM SERVIC E SCHENNAI IN 20:13:33/408459 00000000030386/INR 4585460013957031/918214172540",
+        "amount": -303.86,
+        "balance": 85725.02,
+        "category": "Card Purchase"
+      },
+      {
+        "date": "2019-07-02",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 21:12:31/918321005879 00000000100000/INR 4585460013957031/935678",
+        "amount": -1000.0,
+        "balance": 84725.02,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-07-04",
+        "description": "UPI/918545031818/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8662436149@ONE97COMMU NICATIONSLI 918545031818/",
+        "amount": -50.0,
+        "balance": 84675.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-05",
+        "description": "UPI/918610830948/ DUMMY NAME/VIJB0003102/ 310201011001460/UPI/ 918610830948/",
+        "amount": -7800.0,
+        "balance": 76875.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-05",
+        "description": "UPI/918636836527/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8666207120@ONE97COMMU NICATIONSLI 918636836527/",
+        "amount": -200.0,
+        "balance": 76675.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-05",
+        "description": "UPI/918638839616/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8667360758@ONE97COMMU NICATIONSLI 918638839616/",
+        "amount": -30.0,
+        "balance": 76645.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-05",
+        "description": "UPI/918643867093/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8669707673@ONE97COMMU NICATIONSLI 918643867093/",
+        "amount": -180.0,
+        "balance": 76465.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-06",
+        "description": "UPI/918744254463/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8678907265@ONE97COMMU NICATIONSLI 918744254463/",
+        "amount": -100.0,
+        "balance": 76365.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-08",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 10:24:13/918810007071 00000000150000/INR 4585460013957031/968641",
+        "amount": -1500.0,
+        "balance": 74865.02,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-07-08",
+        "description": "UPI/918844268876/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8686363667@ONE97COMMU NICATIONSLI 918844268876/",
+        "amount": -50.0,
+        "balance": 74815.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-08",
+        "description": "UPI/918937501972/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8690806707@ONE97COMMU NICATIONSLI 918937501972/",
+        "amount": -50.0,
+        "balance": 74765.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-08",
+        "description": "UPI/918944631361/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8694279146@ONE97COMMU NICATIONSLI 918944631361/",
+        "amount": -50.0,
+        "balance": 74715.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-09",
+        "description": "UPI/919036751424/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8698506403@ONE97COMMU NICATIONSLI 919036751424/",
+        "amount": -500.0,
+        "balance": 74215.02,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-09",
+        "description": "DISCOUNT ON FUEL PU VISA POS ON 140",
+        "amount": 2.34,
+        "balance": 74217.36,
+        "category": "Card Purchase"
+      },
+      {
+        "date": "2019-07-10",
+        "description": "IN3670190710M982 SBIN319191137575 OASYS NEFT STATE BANK OF INDIA",
+        "amount": 67148.0,
+        "balance": 141365.36,
+        "category": "Transfer"
+      },
+      {
+        "date": "2019-07-11",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 11:57:02/919211004969 00000000150000/INR 4585460013957031/629859",
+        "amount": -1500.0,
+        "balance": 139865.36,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "PURCHASE LIFE STYLE CHENNAI IN 20:56:43/040950 00000000359900/INR 4585460013957031/919415087373",
+        "amount": -3599.0,
+        "balance": 136266.36,
+        "category": "Card Purchase"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "UPI/919538067344/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8743469606@ONE97COMMU NICATIONSLI 919538067344/",
+        "amount": -100.0,
+        "balance": 136166.36,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "UPI/919519622732/ INDIAIDEAS/INDIAIDEAS@ICICI/ICIC0000103/ 0103SL00IPAY/COLLECT-PAY-REQUEST/ 919519622732/",
+        "amount": -21.0,
+        "balance": 136145.36,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "IMPS/P2A/919619390885/035001527074 ICIC0000350 MANIKANDAN R MANI ANNA",
+        "amount": -20000.0,
+        "balance": 116145.36,
+        "category": "Transfer"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "UPI/919619240436/ 600036138/SCBL0036078/ MR H MOHAMMED HAKKEEM/LIC PREMIUM/ 919619240436/",
+        "amount": 1660.0,
+        "balance": 117805.36,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-15",
+        "description": "ATM WITHDRAWAL SELF-SWITCH AT NFS 22:21:45/919622009091 00000000150000/INR 4585460013957031/246263",
+        "amount": -1500.0,
+        "balance": 116305.36,
+        "category": "ATM Cash"
+      },
+      {
+        "date": "2019-07-16",
+        "description": "UPI/919724531874/ PAYTM/ADD-MONEY@PAYTM/PYTM0123456/ 19744201000007/OID8756371358@ONE97COMMU NICATIONSLI 919724531874/",
+        "amount": -150.0,
+        "balance": 116155.36,
+        "category": "UPI"
+      },
+      {
+        "date": "2019-07-16",
+        "description": "IMPS P2A CHARGES 150719",
+        "amount": -5.0,
+        "balance": 116150.36,
+        "category": "Fees/Charges"
+      },
+      {
+        "date": "2019-07-16",
+        "description": "CGST @ 9.00%",
+        "amount": -0.45,
+        "balance": 116149.91,
+        "category": "Fees/Charges"
+      },
+      {
+        "date": "2019-07-16",
+        "description": "SGST @ 9.00%",
+        "amount": -0.45,
+        "balance": 116149.46,
+        "category": "Fees/Charges"
+      }
+    ]
+  },
+  "insights": [
+    "Consistent monthly salary credit of ₹75,000 detected at month start.",
+    "Positive net inflow of over ₹23,000 shows good savings potential.",
+    "Credit card payments (₹40,000) are the largest expense category.",
+    "Frequent spending on food delivery and transport services observed.",
+    "High cash usage indicated by ₹8,000 in ATM withdrawals."
+  ],
+  "quality": {
+    "ocr_confidence": null,
+    "page_rotation_warnings": false,
+    "missing_sections": [],
+    "duplicate_entries": false,
+    "gemini_confidence": null,
+    "notes": []
+  }
+}

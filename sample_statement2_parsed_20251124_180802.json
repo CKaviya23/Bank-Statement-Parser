@@ -1,0 +1,216 @@
+{
+  "fields": {
+    "Account Info": {
+      "Bank name": null,
+      "Account holder name": null,
+      "Account number": null,
+      "Statement month": null,
+      "Account type": null
+    },
+    "Summary Values": {
+      "Opening balance": null,
+      "Closing balance": null,
+      "Total credits": null,
+      "Total debits": null,
+      "Average daily balance": null
+    },
+    "Transactions": [
+      {
+        "date": "2025-11-16",
+        "description": "UPI-LOGESH S\nD-LOGESHSD1805-1@OKHDFCBANK\n-HDFC0001849-568696975854-UPI",
+        "amount": -119.8,
+        "balance": 82.01,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-16",
+        "description": "UPI-MR HARISS\nVENKATACH-HARISSVENKATACH\nALAM15@OKICICI-CIUB0000639-568659172335-\nUPI",
+        "amount": -33.33,
+        "balance": 48.68,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-16",
+        "description": "UPI-ATHISH\nPRANAVSV-ATHISHPRANAV395-1@O\nKSBI-SBIN0001619-114228004091-UPI",
+        "amount": -26.1,
+        "balance": 22.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-18",
+        "description": "UPI-DHANARAJ-PAYTMQR6MPHUR@PTYS-YESBOPTM\nUPI-114306713101-UPI",
+        "amount": -20.0,
+        "balance": 2.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-19",
+        "description": "UPI-KARTHIKEYAN\nK-THIGIRIKARTHIKEYAN-1@\nOKICICI-KKBK0008659-532375135388-UPI",
+        "amount": 15000.0,
+        "balance": 15002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-19",
+        "description": "UPI-RAJAGOPAL-KRISHNAVENIRAJAGOPAL82@OKI\nCICI-SIBL0000216-532303028951-UPI",
+        "amount": 20000.0,
+        "balance": 35002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-19",
+        "description": "UPI-REVATHI\nV-REVATHIVELASAMY@OKSBI-SBI\nN0003302-532366996756-UPI",
+        "amount": 10000.0,
+        "balance": 45002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-19",
+        "description": "UPI-MANIMARAN\nR-DRRMPBG@OKAXIS-IOBA00003\n00-532372729104-UPI",
+        "amount": 10000.0,
+        "balance": 55002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-19",
+        "description": "UPI-KARUPPUSAMY\nD-VAISIKASARANYA-1@OKAXI\nS-CNRB0000033-532387430308-UPI",
+        "amount": 15000.0,
+        "balance": 70002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-20",
+        "description": "UPI-SHANDILYAN\nS-SHANDY.IT-1@OKHDFCBANK\n-KKBK0000492-569023922357-UPI",
+        "amount": -70000.0,
+        "balance": 2.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-20",
+        "description": "UPI-PURUSOTHAMAN",
+        "amount": 5000.0,
+        "balance": 5002.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-20",
+        "description": "MANOHAR-SUMATHAN5555-5@\nOKAXIS-CNRB0000033-569066234469-KPKUPPUS\nAMY",
+        "amount": 10000.0,
+        "balance": 15002.58,
+        "category": null
+      },
+      {
+        "date": "2025-11-22",
+        "description": "UPI-NANDINI\nSIVAKUMAR-NANDUSIVA135-2@OK\nAXIS-KKBK0000492-569280055903-UPI",
+        "amount": -600.0,
+        "balance": 15602.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-22",
+        "description": "UPI-GANGA\nFOODS-88075521@IDFCBANK-IDFB00\n40101-114519630348-UPI",
+        "amount": -544.0,
+        "balance": 15058.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-22",
+        "description": "UPI-NANDINI MILK\nPARLOUR-PAYTMQR6OZTM0@P\nTYS-YESBOPTMUPI-114520461166-UPI",
+        "amount": -28.0,
+        "balance": 15030.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-22",
+        "description": "UPI-BOOMIΚΑ\nC-C.BOOMIKA12@OKHDFCBANK-CNR\nB0000033-569210197100-UPI",
+        "amount": -100.0,
+        "balance": 14930.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-22",
+        "description": "UPI-BOOMΙΚΑ\nC-C.BOOMIKA12@OKHDFCBANK-CNR\nB0000033-114544668453-UPI",
+        "amount": 100.0,
+        "balance": 15030.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-23",
+        "description": "UPI-FRESH SIGNATURE BANG-2306660688761-0\n1@IOPAY-JIOP0000001-643158613275-UPI",
+        "amount": -207.0,
+        "balance": 14823.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-23",
+        "description": "UPI-PARVATHAVARTHINIP25O-PARVATHAVARTHIN\nIP25@OKAXIS-IOBA0001829-532763022686-UPI",
+        "amount": -50.0,
+        "balance": 14773.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-23",
+        "description": "UPI-GOOGLE INDIA\nSERVICE-GPAYRECHARGE@IC\nICI-ICICODC0099-114571714296-UPI",
+        "amount": -49.0,
+        "balance": 14724.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-23",
+        "description": "UPI-SAMAHITA FUELLING\nST-PAYTMQR5DB9SS@P\nTYS-YESB0PTMUPI-114579090399-UPI",
+        "amount": -100.0,
+        "balance": 14624.58,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-24",
+        "description": "UPI-INDIAN RAILWAY",
+        "amount": -172.25,
+        "balance": 14452.33,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-24",
+        "description": "UPI-SHIVNARAYAN\nYADAV-Q953421144@YBL-YES\nBOYBLUPI-114602152844-UPI",
+        "amount": -40.0,
+        "balance": 14412.33,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-24",
+        "description": "UPI-SHIVNARAYAN\nYADAV-Q953421144@YBL-YES\nBOYBLUPI-114609760250-UPI",
+        "amount": -18.0,
+        "balance": 14394.33,
+        "category": "UPI"
+      },
+      {
+        "date": "2025-11-24",
+        "description": "UPI-NARAYANAN-VYAPAR.171649324489@HDFCBA\nNK-HDFCOMERUPI-114610003994-UPI",
+        "amount": -100.0,
+        "balance": 14294.33,
+        "category": "UPI"
+      }
+    ]
+  },
+  "insights": [
+    "The account shows significant UPI transaction activity during the statement period.",
+    "Multiple credits of substantial amounts (10000-20000) were received on November 19th.",
+    "A large debit of 70000 occurred on November 20th, significantly reducing the balance.",
+    "Numerous smaller debits, mostly under 600, are observed, indicating frequent small purchases or transfers.",
+    "The account balance fluctuates significantly due to the large credit and debit transactions.",
+    "Several transactions are related to known entities like 'GOOGLE INDIA SERVICE', 'INDIAN RAILWAY', and 'NANDINI MILK PARLOUR'.",
+    "The descriptions for UPI transactions often include identifying information like merchant names and UPI IDs."
+  ],
+  "quality": {
+    "ocr_confidence": null,
+    "page_rotation_warnings": false,
+    "missing_sections": [
+      "opening_balance",
+      "closing_balance"
+    ],
+    "duplicate_entries": false,
+    "gemini_used": true,
+    "gemini_error": null,
+    "notes": []
+  }
+}

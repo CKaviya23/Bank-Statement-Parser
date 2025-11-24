@@ -1,0 +1,131 @@
+{
+  "fields": {
+    "Account Info": {
+      "Bank name": null,
+      "Account holder name": null,
+      "Account number": null,
+      "Statement month": null,
+      "Account type": null
+    },
+    "Summary Values": {
+      "Opening balance": null,
+      "Closing balance": null,
+      "Total credits": null,
+      "Total debits": null,
+      "Average daily balance": null
+    },
+    "Transactions": [
+      {
+        "date": "2018-01-03",
+        "description": "ATM Withdrawal",
+        "amount": -757.0,
+        "balance": 6001.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-04",
+        "description": "Fees",
+        "amount": -100.0,
+        "balance": 5200.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-11",
+        "description": "Mortgage Payment",
+        "amount": -350.0,
+        "balance": 5100.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-13",
+        "description": "Rent",
+        "amount": -1000.0,
+        "balance": 4600.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-14",
+        "description": "PAYROLL",
+        "amount": 2500.0,
+        "balance": 3600.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-15",
+        "description": "Cheque No. 302",
+        "amount": 500.0,
+        "balance": 6100.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-20",
+        "description": "Telephone Bill",
+        "amount": -100.0,
+        "balance": 6600.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-23",
+        "description": "Beauty Online Purchase",
+        "amount": -60.0,
+        "balance": 6500.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-24",
+        "description": "Subscription Service",
+        "amount": -28.0,
+        "balance": 6440.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-24",
+        "description": "Fees - Monthly",
+        "amount": -56.0,
+        "balance": 6356.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-28",
+        "description": "Purchases",
+        "amount": -560.0,
+        "balance": 5769.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-29",
+        "description": "Hotel Expenses",
+        "amount": -1000.0,
+        "balance": 5209.0,
+        "category": null
+      },
+      {
+        "date": "2018-01-29",
+        "description": "Stationery",
+        "amount": -101.0,
+        "balance": 4209.0,
+        "category": null
+      }
+    ]
+  },
+  "insights": [
+    "Large ATM withdrawal of $757.00 on January 3rd.",
+    "Multiple fees incurred throughout the month, including a monthly fee.",
+    "Regular expenses include mortgage payment and rent.",
+    "Income includes payroll and a cheque deposit.",
+    "Spending on online purchases and subscription services.",
+    "Significant expenses related to hotel and stationery at the end of the month."
+  ],
+  "quality": {
+    "ocr_confidence": null,
+    "page_rotation_warnings": false,
+    "missing_sections": [
+      "opening_balance",
+      "closing_balance"
+    ],
+    "duplicate_entries": false,
+    "gemini_used": true,
+    "gemini_error": null,
+    "notes": []
+  }
+}

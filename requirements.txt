@@ -1,0 +1,8 @@
+google-generativeai
+pdfplumber
+pytesseract
+Pillow
+opencv-python
+PyMuPDF
+python-dotenv
+google-generativeai

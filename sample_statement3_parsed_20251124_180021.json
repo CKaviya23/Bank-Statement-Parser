@@ -1,0 +1,189 @@
+{
+  "fields": {
+    "Account Info": {
+      "Bank name": null,
+      "Account holder name": null,
+      "Account number": "XXXX-XXXX-XXXX-5678",
+      "Statement month": null,
+      "Account type": null
+    },
+    "Summary Values": {
+      "Opening balance": null,
+      "Closing balance": null,
+      "Total credits": 1876.02,
+      "Total debits": 1320.02,
+      "Average daily balance": null
+    },
+    "Transactions": [
+      {
+        "date": "2023-10-02",
+        "description": "POS PURCHASE",
+        "amount": -4.23,
+        "balance": 65.73,
+        "category": null
+      },
+      {
+        "date": "2023-10-03",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 763.01,
+        "balance": 828.74,
+        "category": null
+      },
+      {
+        "date": "2023-10-04",
+        "description": "POS PURCHASE",
+        "amount": -11.68,
+        "balance": 817.06,
+        "category": null
+      },
+      {
+        "date": "2023-10-05",
+        "description": "CHECK 1234",
+        "amount": -9.98,
+        "balance": 807.08,
+        "category": null
+      },
+      {
+        "date": "2023-10-05",
+        "description": "POS PURCHASE",
+        "amount": -25.5,
+        "balance": 781.58,
+        "category": null
+      },
+      {
+        "date": "2023-10-08",
+        "description": "POS PURCHASE",
+        "amount": -59.08,
+        "balance": 722.5,
+        "category": null
+      },
+      {
+        "date": "2023-10-12",
+        "description": "CHECK 1236",
+        "amount": -69.0,
+        "balance": 653.5,
+        "category": null
+      },
+      {
+        "date": "2023-10-14",
+        "description": "CHECK 1237",
+        "amount": -180.63,
+        "balance": 472.87,
+        "category": null
+      },
+      {
+        "date": "2023-10-14",
+        "description": "POS PURCHASE",
+        "amount": -18.96,
+        "balance": 453.91,
+        "category": null
+      },
+      {
+        "date": "2023-10-16",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 763.01,
+        "balance": 1216.92,
+        "category": null
+      },
+      {
+        "date": "2023-10-22",
+        "description": "ATM WITHDRAWAL",
+        "amount": -140.0,
+        "balance": 1076.92,
+        "category": null
+      },
+      {
+        "date": "2023-10-28",
+        "description": "CHECK 1238",
+        "amount": -91.06,
+        "balance": 985.86,
+        "category": null
+      },
+      {
+        "date": "2023-10-30",
+        "description": "CHECK 1239",
+        "amount": -451.2,
+        "balance": 534.66,
+        "category": null
+      },
+      {
+        "date": "2023-10-30",
+        "description": "CHECK 1246",
+        "amount": -37.07,
+        "balance": 497.59,
+        "category": null
+      },
+      {
+        "date": "2023-10-30",
+        "description": "POS PURCHASE",
+        "amount": -18.67,
+        "balance": 478.92,
+        "category": null
+      },
+      {
+        "date": "2023-10-31",
+        "description": "CHECK 1247",
+        "amount": -100.0,
+        "balance": 378.92,
+        "category": null
+      },
+      {
+        "date": "2023-10-31",
+        "description": "CHECK 1248",
+        "amount": -78.24,
+        "balance": 300.68,
+        "category": null
+      },
+      {
+        "date": "2023-10-31",
+        "description": "PREAUTHORIZED CREDIT",
+        "amount": 350.0,
+        "balance": 650.68,
+        "category": null
+      },
+      {
+        "date": "2023-11-02",
+        "description": "CHECK 1249",
+        "amount": -52.23,
+        "balance": 598.45,
+        "category": null
+      },
+      {
+        "date": "2023-11-09",
+        "description": "INTEREST CREDIT",
+        "amount": 0.26,
+        "balance": 598.71,
+        "category": null
+      },
+      {
+        "date": "2023-11-09",
+        "description": "SERVICE CHARGE",
+        "amount": -12.0,
+        "balance": 586.71,
+        "category": null
+      }
+    ]
+  },
+  "insights": [
+    "Total credits for the period were $1876.02.",
+    "Total debits for the period were $1320.02.",
+    "Multiple 'POS PURCHASE' transactions occurred throughout the period.",
+    "Several transactions were made via checks (CHECK 1234, CHECK 1236, CHECK 1237, CHECK 1238, CHECK 1239, CHECK 1246, CHECK 1247, CHECK 1248, CHECK 1249).",
+    "There were recurring 'PREAUTHORIZED CREDIT' transactions.",
+    "An ATM withdrawal of $140.00 occurred on 2023-10-22.",
+    "An interest credit of $0.26 was received on 2023-11-09.",
+    "A service charge of $12.00 was applied on 2023-11-09."
+  ],
+  "quality": {
+    "ocr_confidence": null,
+    "page_rotation_warnings": false,
+    "missing_sections": [
+      "opening_balance",
+      "closing_balance"
+    ],
+    "duplicate_entries": false,
+    "gemini_used": true,
+    "gemini_error": null,
+    "notes": []
+  }
+}
