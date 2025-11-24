@@ -1,70 +1,122 @@
-🏦 Bank Statement Parser (Gemini Vision)
+Bank Statement Parser (AI-Powered · Gemini 2.5 Pro Vision)
 
-This project extracts structured financial data and actionable insights from bank statements (PDF or image format) using Google Gemini 2.5 Pro.
+A powerful AI-driven tool that automatically extracts structured financial data and generates intelligent spending insights from bank statements (PDF or image).
+Built using Google Gemini 2.5 Pro Vision, PyMuPDF, Tesseract OCR, and Python.
 
-🚀 Features
+⭐ Features
+🔍 Smart Document Understanding
 
-✅ Supports PDFs and images (auto-detects format)
-✅ Uses Gemini Vision API for data extraction
-✅ Derives structured JSON:
+Supports PDFs, scanned images, and photos of statements
 
-Account Info (bank, holder, number, type)
+Auto-detects document type
 
-Summary Values (opening, closing, credits, debits)
+Handles multiple pages
+
+🤖 AI-Powered Data Extraction
+
+Extracts clean JSON with:
+
+Account Info (bank name, holder, account number, type)
+
+Summary Values (opening balance, closing balance, credits, debits)
 
 Transactions (date, description, amount, balance, category)
-✅ Runs a second Gemini prompt to generate concise financial insights
-✅ Post-processing: masks account numbers, normalizes amounts/dates, infers missing totals, checks balance consistency
-✅ Quality metadata: missing sections, duplicates, validation notes
-✅ Privacy: no sensitive source files stored; only parsed JSON output saved
-✅ Offline test mode (--test) produces deterministic mock data
-✅ Saves result as *_parsed_<timestamp>.json in the same folder
 
+🧠 Insight Generation (Using Gemini)
+
+Detects salary patterns
+
+Identifies spending categories
+
+Highlights account risks (low balance, high spending)
+
+Flags ATM withdrawals, subscriptions & financial patterns
+
+🛡️ Privacy First
+
+Masks account numbers (XXXX-XXXX-XXXX-1234)
+
+No sensitive files stored
+
+All processing happens locally + Gemini API call
+
+🧰 Additional Capabilities
+
+Offline mode (--test) – no API required
+
+Local OCR fallback using Tesseract
+
+Saves parsed output as JSON
+
+Includes quality metadata, missing fields, OCR notes
 
 📂 Project Structure
-
 bank_statement_parser/
-├── process_bank_statement.py         # Main pipeline (Gemini + JSON output)
+├── process_bank_statement.py      # Main pipeline (Gemini + OCR)
 ├── prompts/
-│   ├── prompt_extraction.txt         # Schema and extraction instructions
-│   └── prompt_insights.txt           # Financial insights generation prompt
+│   ├── prompt_extraction.txt      # Gemini extraction instructions
+│   └── prompt_insights.txt        # Insight generation instructions
 ├── sample_data/
-│   ├── my_statement.pdf              # Example PDF statement
-│   └── my_statement.jpg              # Example image statement
+│   ├── my_statement.pdf           # Example PDF
+│   └── my_statement.jpg           # Example image
 └── README.md
 
+🔧 Installation
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/bank-statement-parser.git
+cd bank-statement-parser
 
-⚙️ Installation
+2️⃣ Create a virtual environment
+python -m venv venv
 
-1️⃣ Clone / unzip the folder
-2️⃣ Create a virtual environment (recommended):
-python3 -m venv venv
-source venv/bin/activate  # (Mac/Linux)
-venv\Scripts\activate     # (Windows)
+3️⃣ Activate the environment
+
+Windows
+
+venv\Scripts\activate
 
 
-3️⃣ Install dependencies:
-pip install google-generativeai python-dotenv Pillow PyMuPDF
+Mac / Linux
 
-4️⃣ Set your Gemini API key:
-export GEMINI_API_KEY="your_api_key_here"   # Mac/Linux
-setx GEMINI_API_KEY "your_api_key_here"     # Windows
+source venv/bin/activate
+
+4️⃣ Install dependencies
+pip install google-generativeai python-dotenv Pillow PyMuPDF pytesseract
+
+5️⃣ Install Tesseract OCR
+
+Windows: Download installer
+👉 https://github.com/UB-Mannheim/tesseract/wiki
+
+Mac
+
+brew install tesseract
+
+6️⃣ Set your Gemini API key
+
+Windows
+
+setx GEMINI_API_KEY "your_api_key_here"
+
+
+Mac/Linux
+
+export GEMINI_API_KEY="your_api_key_here"
 
 ▶️ Usage
-Process a "PDF"
+Parse a PDF
 python process_bank_statement.py sample_data/my_statement.pdf
-Process an "image"
+
+Parse an image
 python process_bank_statement.py sample_data/my_statement.jpg
-Test mode (no API calls)
-python process_bank_statement.py sample_data/anything.pdf --test
 
-✅ Output will be printed in the console and saved as:
+Offline test mode (no API)
+python process_bank_statement.py sample_data/test.pdf --test
+
+
+Output saved as:
+
 my_statement_parsed_YYYYMMDD_HHMMSS.json
-
-🧩 Prompt Files
-
-prompt_extraction.txt - Guides Gemini to output structured JSON (schema, parsing rules, date/amount format).
-prompt_insights.txt	- Guides Gemini to generate 3–8 clear, actionable insights based only on the extracted JSON.
 
 🧠 Example Output (Shortened)
 {
@@ -74,7 +126,7 @@ prompt_insights.txt	- Guides Gemini to generate 3–8 clear, actionable insights
       "Account holder name": "MR SEENIVASAN",
       "Account number": "XXXX-XXXX-XXXX-0422",
       "Statement month": "June-July 2019",
-      "Account type": "SMART BANKING SAVINGS ACCOUNT"
+      "Account type": "Savings"
     },
     "Summary Values": {
       "Opening balance": 114453.65,
@@ -85,28 +137,81 @@ prompt_insights.txt	- Guides Gemini to generate 3–8 clear, actionable insights
     "Transactions": [...]
   },
   "insights": [
-    "Net positive cash flow this period, increasing balance by over ₹13,000.",
-    "A consistent salary of ₹65,000 was received at the start of the month.",
-    "Frequent ATM withdrawals observed — consider fee-free options."
-  ],
-  "quality": {
-    "missing_sections": [],
-    "duplicate_entries": false
-  }
+    "Net positive cash flow this period (+₹13,000).",
+    "Salary credited consistently at the start of the month.",
+    "Multiple ATM withdrawals detected — consider fee-free options."
+  ]
 }
 
-✅ Task-2 Compliance Summary
+🧩 How the Pipeline Works
+
+Detect document type (PDF or image)
+
+Attempt Gemini 2.5 Pro Vision extraction
+
+Sends document securely
+
+Gets structured JSON
+
+If Gemini fails → Use local OCR (Tesseract)
+
+Clean & normalize:
+
+Dates → YYYY-MM-DD
+
+Amounts → float
+
+Mask sensitive info
+
+Run insight prompt → Generate financial summary
+
+Combine everything into final JSON output
+
+🛠️ Tech Stack
+Component	Technology
+AI Model	Gemini 2.5 Pro Vision
+OCR	Tesseract OCR
+PDF Rendering	PyMuPDF
+Language	Python
+Validation	Custom parsers + regex
+Output	JSON
+🧪 Test Mode (No Gemini Required)
+
+Run:
+
+python process_bank_statement.py dummy.pdf --test
+
+
+Output:
+
+Fake transactions
+
+Fake account data
+
+Perfect for demos & offline use
+
+🛡️ Quality Metadata Included
+
+Each output includes:
+
+❗ Missing fields
+
+⚠️ Duplicate transaction detection
+
+📉 OCR confidence
+
+🔄 Page rotation warnings
+
+🤖 Whether Gemini was used
+
+📝 Notes from fallback OCR
+
+📌 Task-2 Compliance Summary
 Requirement	Status
-Gemini-based extraction (Vision + JSON)	✅ Done
-Gemini insights prompt	✅ Done
+Gemini Vision extraction	✅ Done
+Insight generation	✅ Done
 Test mode	✅ Done
-Privacy & masking	✅ Done
-JSON output (fields + insights + quality)	✅ Done
-PDF & image support	✅ Done
-Prompt files (.txt)	✅ Done
-
-
-
-
-
-
+Mask account numbers	✅ Done
+JSON output	✅ Done
+PDF + Image support	✅ Done
+Prompt files	✅ Done
