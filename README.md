@@ -3,14 +3,14 @@ Bank Statement Parser (AI-Powered · Gemini 2.5 Pro Vision)
 A powerful AI-driven tool that automatically extracts structured financial data and generates intelligent spending insights from bank statements (PDF or image).
 Built using Google Gemini 2.5 Pro Vision, PyMuPDF, Tesseract OCR, and Python.
 
-⭐ Features
-🔍 Smart Document Understanding
+ Features:
+1.Smart Document Understanding
 
-Supports PDFs, scanned images, and photos of statements
+2.Supports PDFs, scanned images, and photos of statements
 
-Auto-detects document type
+3.Auto-detects document type
 
-Handles multiple pages
+4.Handles multiple pages
 
 🤖 AI-Powered Data Extraction
 
@@ -40,7 +40,7 @@ No sensitive files stored
 
 All processing happens locally + Gemini API call
 
-🧰 Additional Capabilities
+ Additional Capabilities:
 
 Offline mode (--test) – no API required
 
@@ -118,7 +118,7 @@ Output saved as:
 
 my_statement_parsed_YYYYMMDD_HHMMSS.json
 
-🧠 Example Output (Shortened)
+ Example Output (Shortened)
 {
   "fields": {
     "Account Info": {
@@ -206,7 +206,7 @@ Each output includes:
 
 📝 Notes from fallback OCR
 
-📌 Task-2 Compliance Summary
+📌  Compliance Summary
 Requirement	Status
 Gemini Vision extraction	✅ Done
 Insight generation	✅ Done
