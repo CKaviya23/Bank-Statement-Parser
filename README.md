@@ -3,16 +3,16 @@ Bank Statement Parser (AI-Powered · Gemini 2.5 Pro Vision)
 A powerful AI-driven tool that automatically extracts structured financial data and generates intelligent spending insights from bank statements (PDF or image).
 Built using Google Gemini 2.5 Pro Vision, PyMuPDF, Tesseract OCR, and Python.
 
-⭐ Features
-🔍 Smart Document Understanding
+** Features**
+1. Smart Document Understanding
 
-Supports PDFs, scanned images, and photos of statements
+2.Supports PDFs, scanned images, and photos of statements
 
-Auto-detects document type
+3.Auto-detects document type
 
-Handles multiple pages
+4.Handles multiple pages
 
-🤖 AI-Powered Data Extraction
+** AI-Powered Data Extraction**
 
 Extracts clean JSON with:
 
@@ -62,6 +62,7 @@ bank_statement_parser/
 └── README.md
 
 🔧 Installation
+
 1️⃣ Clone the repository
 git clone https://github.com/<your-username>/bank-statement-parser.git
 cd bank-statement-parser
@@ -143,7 +144,7 @@ my_statement_parsed_YYYYMMDD_HHMMSS.json
   ]
 }
 
-🧩 How the Pipeline Works
+ **How the Pipeline Works:**
 
 Detect document type (PDF or image)
 
@@ -167,7 +168,7 @@ Run insight prompt → Generate financial summary
 
 Combine everything into final JSON output
 
-🛠️ Tech Stack
+ **Tech Stack:**
 Component	Technology
 AI Model	Gemini 2.5 Pro Vision
 OCR	Tesseract OCR
@@ -177,12 +178,12 @@ Validation	Custom parsers + regex
 Output	JSON
 🧪 Test Mode (No Gemini Required)
 
-Run:
+**Run:**
 
 python process_bank_statement.py dummy.pdf --test
 
 
-Output:
+**Output:**
 
 Fake transactions
 
@@ -190,9 +191,9 @@ Fake account data
 
 Perfect for demos & offline use
 
-🛡️ Quality Metadata Included
+ Quality Metadata Included
 
-Each output includes:
+**Each output includes:**
 
 ❗ Missing fields
 
@@ -206,12 +207,18 @@ Each output includes:
 
 📝 Notes from fallback OCR
 
-📌 Task-2 Compliance Summary
+📌  Compliance Summary
 Requirement	Status
 Gemini Vision extraction	✅ Done
+
 Insight generation	✅ Done
+
 Test mode	✅ Done
+
 Mask account numbers	✅ Done
+
 JSON output	✅ Done
+
 PDF + Image support	✅ Done
+
 Prompt files	✅ Done
